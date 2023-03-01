@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\ProjetosDEV\\MiddlewareEstudo\\MiddlewareEstudo\\MiddlewareEstudo.csproj": {}
+    "C:\\Users\\User\\Desktop\\ProjetosDEV\\MiddlewareEstudo\\MiddlewareEstudo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\ProjetosDEV\\MiddlewareEstudo\\MiddlewareEstudo\\MiddlewareEstudo.csproj": {
+    "C:\\Users\\User\\Desktop\\ProjetosDEV\\MiddlewareEstudo\\MiddlewareEstudo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\ProjetosDEV\\MiddlewareEstudo\\MiddlewareEstudo\\MiddlewareEstudo.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\ProjetosDEV\\MiddlewareEstudo\\MiddlewareEstudo.csproj",
         "projectName": "MiddlewareEstudo",
-        "projectPath": "C:\\Users\\User\\Desktop\\ProjetosDEV\\MiddlewareEstudo\\MiddlewareEstudo\\MiddlewareEstudo.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\ProjetosDEV\\MiddlewareEstudo\\MiddlewareEstudo.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\ProjetosDEV\\MiddlewareEstudo\\MiddlewareEstudo\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\ProjetosDEV\\MiddlewareEstudo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
