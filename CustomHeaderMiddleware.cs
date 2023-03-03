@@ -15,7 +15,7 @@ namespace MiddlewareEstudo
         }
         public async Task InvokeAsync(HttpContext context, RequestDelegate next)
         {
-            context.Response.Headers.Add("X-Custom-Header", "Custom Header");
+            context.Response.Headers.Add("X-Custom-Header", "Drigo ta bugado");
             await next(context);
         }
     }
