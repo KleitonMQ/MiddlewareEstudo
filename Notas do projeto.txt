@@ -1,0 +1,7 @@
+A classe middleware é responsável por adicionar um novo header HTTP personalizado ("X-Custom-Header") à resposta HTTP que é enviada de volta ao cliente. O método "InvokeAsync" na classe de middleware é chamado para processar cada solicitação HTTP recebida pelo aplicativo.
+
+Quando o método "InvokeAsync" é chamado, ele recebe dois parâmetros: "HttpContext" e "RequestDelegate next". O "HttpContext" é um objeto que contém informações sobre a solicitação HTTP recebida e a resposta HTTP que será enviada de volta ao cliente. O "RequestDelegate next" é uma referência a um método que representa o próximo middleware na cadeia de middleware do aplicativo.
+
+O método "InvokeAsync" da classe de middleware adiciona o header personalizado "X-Custom-Header" à coleção de headers da resposta HTTP e, em seguida, chama o próximo middleware na cadeia usando o método "await next(context)".
+
+Portanto, quando usa o código "HttpContext.Response.Headers["X-Custom-Header"]" em uma controladora ou em outro lugar do aplicativo, ele simplesmente acessa o valor do header personalizado que foi adicionado pela classe de middleware. Não há necessidade de chamar explicitamente o método "InvokeAsync" da classe de middleware em outro lugar do aplicativo. O middleware será chamado automaticamente para processar cada solicitação HTTP recebida pelo aplicativo.
